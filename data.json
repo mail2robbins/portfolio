@@ -1,0 +1,14 @@
+[
+  {
+    "uri": "https://opentable-clone-next-liard.vercel.app/",
+    "title": "Open Table Clone",
+    "tech": ["Next", "Hooks", "Context API", "NodeJS", "Supabase/PostgreSQL"],
+    "imgUri": "/nextOpenTable.png"
+  },
+  {
+    "uri": "https://www.roaming-routes.com/",
+    "title": "Tour Agency Clone",
+    "tech": ["React", "Context API", "Function Components", "NodeJS"],
+    "imgUri": "/reactTours.png"
+  }
+]
