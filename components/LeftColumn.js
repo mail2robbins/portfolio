@@ -32,23 +32,27 @@ const zoomVariant = {
 
 const LeftColumn = (props) => {
   return (
-    <div className="grid grid-rows-5 h-full">
-      <div className="w-full grid place-items-center">
-        <motion.div
-          variants={zoomVariant}
-          initial="initial"
-          animate="animate"
-          whileHover="hover"
-          className="w-28 h-28 bg-extra-100 rounded-full grid place-items-center cursor-pointer"
-        >
-          <h1 className="text-6xl text-primary pt-2">RT</h1>
-        </motion.div>
+    <div className="grid h-full">
+      <div className="flex flex-col overflow-none items-start">
+        <div className="py-0 mt-2 2xl:mt-10"></div>
+
+        <div className="w-full grid place-items-center">
+          <motion.div
+            variants={zoomVariant}
+            initial="initial"
+            animate="animate"
+            whileHover="hover"
+            className="w-28 h-28 bg-extra-100 rounded-full grid place-items-center cursor-pointer"
+          >
+            <h1 className="text-6xl text-primary pt-2">RT</h1>
+          </motion.div>
+        </div>
       </div>
-      <div>
+
+      <div className="flex flex-col pt-0 mt-0 overflow-y-auto items-start">
         <div className="py-0">
           <h1 className="text-secondary text-2xl px-6 tracking-widest">INFO</h1>
         </div>
-        <div className="w-full ml-6 h-[2px] rounded-full bg-extra-200" />
         <div className="ml-10">
           <motion.div
             variants={variant}
@@ -91,14 +95,13 @@ const LeftColumn = (props) => {
             </h1>
           </motion.div>
         </div>
-      </div>
-      <div>
-        <div className="pt-24">
-          <h1 className="text-secondary text-2xl px-6 pt-6 tracking-widest">
+
+        <div className="pt-0">
+          <h1 className="text-secondary text-2xl px-6 tracking-widest">
             EDUCATION
           </h1>
         </div>
-        <div className="w-full ml-6 h-[2px] rounded-full bg-extra-200" />
+
         <div className="ml-10">
           <motion.div
             variants={variant}
@@ -106,10 +109,10 @@ const LeftColumn = (props) => {
             animate="animate"
             className="py-2"
           >
-            <h1 className="text-secondary">
+            <h1 className="text-secondary pr-2">
               2004 - Master's in information technology
             </h1>
-            <h1 className="text-light text-extra-200 text-sm">
+            <h1 className="text-light text-extra-200 text-sm pr-2">
               Manipal Academy of Higher Education, Karnataka, India
             </h1>
           </motion.div>
@@ -120,22 +123,21 @@ const LeftColumn = (props) => {
             animate="animate"
             className="py-2"
           >
-            <h1 className="text-secondary">
+            <h1 className="text-secondary pr-2">
               1999 - Bachelor's in computer applications
             </h1>
-            <h1 className="text-light text-extra-200 text-sm">
+            <h1 className="text-light text-extra-200 text-sm pr-2">
               Mahatma Gandhi University, Kerala, India
             </h1>
           </motion.div>
         </div>
-      </div>
-      <div>
-        <div className="pt-24">
+
+        <div className="pt-0">
           <h1 className="text-secondary text-2xl px-6 pt-4 tracking-widest">
             SOCIAL
           </h1>
         </div>
-        <div className="w-full ml-6 h-[2px] rounded-full bg-extra-200" />
+
         <div className="ml-10">
           <motion.div
             variants={variant}
@@ -160,23 +162,9 @@ const LeftColumn = (props) => {
               </a>
             </div>
           </motion.div>
-
-          {/* <motion.div
-            variants={variant}
-            initial="initial"
-            animate="animate"
-            className="py-2"
-          >
-            <h1 className="text-secondary">Email</h1>
-            <a
-              href="mailto:mail2robbins@gmail.com"
-              className="font-light text-blue-500 underline cursor-pointer tracking-tight hover:text-blue-300 hover:tracking-wider"
-            >
-              Link
-            </a>
-          </motion.div> */}
         </div>
       </div>
+      <div className="grid h-full"></div>
     </div>
   );
 };

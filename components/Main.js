@@ -84,27 +84,27 @@ const Main = ({ divRef, setScroll, scroll, shown, setShown }) => {
             </div>
             <div>
               <ul>
-                <li className="text-primary font-extralight hover:text-blue-300 cursor-pointer pl-4">
+                <li className="text-primary font-extralight hover:text-blue-900 cursor-pointer pl-4">
                   {" "}
                   Developed SPA Web application using React, Next and NodeJS
                   with Tailwind CSS
                 </li>
-                <li className="text-primary font-extralight hover:text-blue-300 cursor-pointer pl-4">
+                <li className="text-primary font-extralight hover:text-blue-900 cursor-pointer pl-4">
                   {" "}
                   Developed front-end applications using PowerApps consuming
                   Azure APIM
                 </li>
-                <li className="text-primary font-extralight hover:text-blue-300 cursor-pointer pl-4">
+                <li className="text-primary font-extralight hover:text-blue-900 cursor-pointer pl-4">
                   {" "}
                   Scheduled background jobs in Power Automate/Flow and Azure
                   Data Factory
                 </li>
-                <li className="text-primary font-extralight hover:text-blue-300 cursor-pointer pl-4">
+                <li className="text-primary font-extralight hover:text-blue-900 cursor-pointer pl-4">
                   {" "}
                   Designed Database objects in Azure SQL Server and developed
                   stored procedures
                 </li>
-                <li className="text-primary font-extralight hover:text-blue-300 cursor-pointer pl-4">
+                <li className="text-primary font-extralight hover:text-blue-900 cursor-pointer pl-4">
                   {" "}
                   Thoroughly followed the Agile Methodology in the entire
                   project using Azure DevOps
