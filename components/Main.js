@@ -37,7 +37,7 @@ const Main = ({ divRef, setScroll, scroll, shown, setShown }) => {
           className="font-light text-lg text-primary pl-2"
         >
           ASP.Net / C# / .Net Core / Web API / Azure / SQL / Angular / React /
-          NodeJs / Next / Python / Selenium Developer
+          NodeJs / Next / Python / MS Power Platform / Selenium Developer
         </motion.p>
       </motion.div>
       <div className="h-[1px] rounded-full bg-extra-200" />
@@ -148,6 +148,8 @@ const Main = ({ divRef, setScroll, scroll, shown, setShown }) => {
               <Skills skill="ASP .Net" percentage="50%" />
               <Skills skill="Web API" percentage="60%" />
               <Skills skill="Azure" percentage="60%" />
+              <Skills skill="MS PowerApp" percentage="70%" />
+              <Skills skill="MS PowerAutomate" percentage="60%" />
               <Skills skill="Angular " percentage="50%" />
               <Skills skill="Python" percentage="50%" />
               <Skills skill="Selenium" percentage="60%" />
