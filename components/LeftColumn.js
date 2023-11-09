@@ -44,7 +44,14 @@ const LeftColumn = (props) => {
             whileHover="hover"
             className="w-28 h-28 bg-extra-100 rounded-full grid place-items-center cursor-pointer"
           >
-            <h1 className="text-6xl text-primary pt-2">RT</h1>
+            {/* <h1 className="text-6xl text-primary pt-2">RT</h1> */}
+            <Image
+              src="/LinkedInProfile.jpeg"
+              alt="Robin Thomas"
+              width={100}
+              height={100}
+              className="w-58 h-58 rounded-full"
+            />
           </motion.div>
         </div>
       </div>
