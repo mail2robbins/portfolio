@@ -10,5 +10,18 @@
     "title": "Tour Agency Clone",
     "tech": ["React", "Context API", "Function Components", "NodeJS"],
     "imgUri": "/reactTours.png"
+  },
+  {
+    "uri": "https://dashboard-next-nine.vercel.app/",
+    "title": "Sample Dashboard Design",
+    "tech": [
+      "Next",
+      "Context API",
+      "Function Components",
+      "NodeJS",
+      "recharts",
+      "atlas/mongoose"
+    ],
+    "imgUri": "/dashboardNext.png"
   }
 ]
