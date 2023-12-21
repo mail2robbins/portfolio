@@ -23,5 +23,17 @@
       "atlas/mongoose"
     ],
     "imgUri": "/dashboardNext.png"
+  },
+  {
+    "uri": "https://event-manager-liard.vercel.app/",
+    "title": "Event Manager - Clone",
+    "tech": [
+      "Next",
+      "Webhooks & Clerk",
+      "MongoDB",
+      "Zod Validation",
+      "Checkout & Stripe"
+    ],
+    "imgUri": "/eventmgrNext.jpg"
   }
 ]
