@@ -35,5 +35,11 @@
       "Checkout & Stripe"
     ],
     "imgUri": "/eventmgrNext.jpg"
+  },
+  {
+    "uri": "https://nikeclone-tau.vercel.app/",
+    "title": "Nike - Clone",
+    "tech": ["React", "Vite", "Tailwind CSS"],
+    "imgUri": "/eventmgrNext.jpg"
   }
 ]
