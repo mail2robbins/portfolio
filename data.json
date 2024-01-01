@@ -40,6 +40,6 @@
     "uri": "https://nikeclone-tau.vercel.app/",
     "title": "Nike - Clone",
     "tech": ["React", "Vite", "Tailwind CSS"],
-    "imgUri": "/eventmgrNext.jpg"
+    "imgUri": "/nike_clone.png"
   }
 ]
