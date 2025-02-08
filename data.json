@@ -6,7 +6,7 @@
     "imgUri": "/nextOpenTable.png"
   },
   {
-    "uri": "https://www.roaming-routes.com/",
+    "uri": "https://roamingroutes-react.vercel.app/",
     "title": "Tour Agency Clone",
     "tech": ["React", "Context API", "Function Components", "NodeJS"],
     "imgUri": "/reactTours.png"
