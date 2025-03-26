@@ -12,8 +12,20 @@
     "imgUri": "/reactTours.png"
   },
   {
+    "uri": "https://vibe-hub-social-forum.vercel.app/",
+    "title": "Vibe.Hub - Social Forum",
+    "tech": [
+      "React",
+      "Vite",
+      "React Query",
+      "Supabase (postgreSQL)",
+      "Git Authentication"
+    ],
+    "imgUri": "/vibeHubReact.JPG"
+  },
+  {
     "uri": "https://dashboard-next-nine.vercel.app/",
-    "title": "Sample Dashboard Design",
+    "title": "Sample Inventory Dashboard Design",
     "tech": [
       "Next",
       "Context API",
