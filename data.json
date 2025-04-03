@@ -2,14 +2,14 @@
   {
     "uri": "https://opentable-clone-next-liard.vercel.app/",
     "title": "Open Table Clone",
-    "tech": ["Next", "Hooks", "Context API", "NodeJS", "Supabase/PostgreSQL"],
+    "tech": ["Next", "Hooks", "Context API", "Supabase/PostgreSQL"],
     "imgUri": "/nextOpenTable.png"
   },
   {
-    "uri": "https://roamingroutes-react.vercel.app/",
-    "title": "Tour Agency Clone",
-    "tech": ["React", "Context API", "Function Components", "NodeJS"],
-    "imgUri": "/reactTours.png"
+    "uri": "https://squadline-chat.vercel.app/",
+    "title": "Chat Application - Squadline by Robin",
+    "tech": ["React", "Vite", "Web Socket", "PostgreSQL (Neon)"],
+    "imgUri": "/squadline-chat-image.JPG"
   },
   {
     "uri": "https://vibe-hub-social-forum.vercel.app/",
@@ -22,6 +22,12 @@
       "Git Authentication"
     ],
     "imgUri": "/vibeHubReact.JPG"
+  },
+  {
+    "uri": "https://roamingroutes-react.vercel.app/",
+    "title": "Tour Agency Clone",
+    "tech": ["React", "Context API", "Function Components", "NodeJS"],
+    "imgUri": "/reactTours.png"
   },
   {
     "uri": "https://dashboard-next-nine.vercel.app/",
